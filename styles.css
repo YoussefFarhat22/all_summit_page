@@ -82,7 +82,7 @@ cursor: pointer;
 .hero-section{
   background-image:linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)),url('sigmund-eTgMFFzroGc-unsplash.jpg');
+    rgba(0,0,0,0.5)),url('images/sigmund-eTgMFFzroGc-unsplash.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -262,7 +262,7 @@ width: 60%;
 .first{
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)),url(16999977166700704050.png);
+    rgba(0,0,0,0.5)),url(images/16999977166700704050.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -274,7 +274,7 @@ width: 60%;
 .middle{
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)),url(17096477304657757671.jpeg);
+    rgba(0,0,0,0.5)),url(images/17096477304657757671.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -294,7 +294,7 @@ width: 60%;
 .last{
   background-image: linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)),url(17004746266773612466.png);
+    rgba(0,0,0,0.5)),url(images/17004746266773612466.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
