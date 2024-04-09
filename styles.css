@@ -67,9 +67,6 @@ cursor: pointer;
   font-weight: 700;
 }
   
-
-
-
 .signup:hover{
   background-color:#000000b1 ;
 }
@@ -79,10 +76,13 @@ cursor: pointer;
   align-items: center;
 }
 
+
+
+
 .hero-section{
   background-image:linear-gradient(
     rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)),url('images/sigmund-eTgMFFzroGc-unsplash.jpg');
+    rgba(0,0,0,0.5)),url('images/Copy\ of\ SUMMIT\ COVER\ 2\ .jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -106,6 +106,12 @@ main{
   font-weight: bold;
 }
 
+@media (max-width: 500px) {
+  .hero-header {
+    font-size: 1.1rem;
+  }
+}
+
 .hero-content{
   display: flex;
   flex-direction: column;
@@ -118,17 +124,52 @@ main{
   margin-bottom: 5px;
 }
 
-/* hr{
+hr{
   width: 950px;
-} */
+}
 
-/* .hero-subHeader{
-max-width: 650px;
+@media (max-width:500px){
+  .header-container{
+    display: none;
+  }
+}
 
-} */
-/* 
-.hero-subHeader p{
-font-size: 1.1rem;
+@media (max-width: 500px) {
+  hr {
+    width: 350px;
+  }
+}
+
+@media (max-width: 500px) {
+  .categories{
+    flex-direction: column;
+  }
+ 
+}
+
+@media (max-width: 500px) {
+  .filter{
+    display: flex;
+  }
+}
+
+@media (max-width:500px){
+  .categories-filter{
+    width: 10%;
+  }
+}
+
+@media (max-width:500px){
+  .categories-container{
+    width: 100%;
+  }
+}
+
+/* @media (max-width:500px){
+  .categories{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+  }
 } */
 
 .numbers{
@@ -144,18 +185,23 @@ font-weight: bold;
 font-size: 2.1rem;
 }
 
+
+.btn{
+  background-color: rgba(14,30,175,0.85);
+  cursor:pointer;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
 .explore-btn{
   display: flex;
   align-items: center;
   gap: 5px;
-  cursor:pointer;
   padding: 12px 26px;
-  background-color: rgba(14,30,175,0.85);
-  border-radius: 50px;
-  border: none;
-  color: white;
   font-size: 1.3rem;
-  font-weight: bold;
+  
   margin-bottom: 20px;
   transition: transform 500ms;
 }
@@ -165,13 +211,11 @@ font-size: 2.1rem;
   transform: translateY(0.75rem);
 }
 
-.main-section,.speakers-section,.testimonials-section{
+.section-container{
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 22px;
-  
- 
 }
 
 
@@ -200,15 +244,16 @@ font-size: 2.1rem;
 }
   
 .categories-description{
-
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-margin: 10px;
-padding: 16px;
-gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 16px;
+  gap: 20px;
 }
+
   
+
 
 .category-title{
   font-weight: bold;
@@ -363,13 +408,7 @@ width: 60%;
 
 .register-btn{
   padding: 12px 22px;
-  color: #fff;
-  border: none;
-  background-color: rgba(14,30,175,0.85);
-  border-radius: 30px;
-  font-weight: bold;
-  font-size: 1.15rem;
-  cursor: pointer;
+ font-size: 1.15rem;
 }
 
 .partnerships-section{
